@@ -1,0 +1,202 @@
+@import "null.scss";
+@import "fonts.scss";
+* {
+    font-family: "Lucida Sans Unicode";
+}
+html, body {
+	width:100%;
+	overflow-x:hidden;
+}
+.tipa-body {
+    min-height: 100%;
+    background-image: url(../img/back.jpg);
+    background-size: 250px;
+    background-attachment: fixed;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 970px;
+	flex: 1 1 auto;
+}
+.gorizontal_nav {
+	list-style-type: none;
+	background-color: rgb(218, 218, 218);
+	min-height: 80px;
+	margin-bottom: 40px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 0 0 5px 13px rgb(218, 218, 218);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.gorizontal_nav a {
+    border-radius: 7px;
+	display: flex;
+	border: 1px dashed #000;
+	background-color: #C4C4C4;
+	text-decoration: none;
+	display: flex;
+	height: 35px;
+	min-width: 150px;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0 10px;
+	font-size: 19px;
+	color: #040029;
+}
+.gorizontal_nav a:visited {
+	color: #040029;
+}
+.gorizontal_nav a:hover {
+	color: #d96f00;
+}
+.visitka {
+    background-color: rgb(218, 218, 218);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 0 0 5px 13px rgb(218, 218, 218);
+	flex: 1 1 auto;
+}
+.content_visitka {
+    display: flex;
+    flex-direction: column;
+}
+._1polovina_contenta {
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+._1polovina_contenta__txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+	max-width: 450px;
+}
+.hello {
+    font-size: 55px;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+.hto_ya___prezident_ukraini {
+    font-size: 26px;
+    flex-grow: 1;
+}
+.moy_simvol {
+    height: 275px;
+    margin: 25px 0;
+}
+._2polovina_contenta {
+    font-size: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex: 1;
+    justify-content: space-between;
+}
+.what___is___SPAAARRRTAAA {
+    font-size: 26px;
+}
+.socsety {
+    background-color: rgb(218, 218, 218);
+    margin: 40px 0 0 0;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 0 0 5px 13px rgb(218, 218, 218);
+    padding: 20px;
+}
+.txt_knopky {
+    text-align: center;
+	margin-bottom: 15px;
+}
+.knopki_div {
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+.knopka {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 7px 20px;
+}
+.knopka1 {
+    background-image: url(../img/1.png);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.knopka2 {
+    background-image: url(../img/2.png);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.knopkasoob {
+    background-image: url(../img/vksoob.png);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.knopka3 {
+    background-image: url(../img/3.png);
+}
+.knopka4 {
+    background-image: url(../img/4.png);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.knopka5 {
+    background-image: url(../img/5.png);
+}
+.knopka6 {
+    background-image: url(../img/6.png);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.knopka7 {
+    background-image: url(../img/gitlab.png);
+}
+footer {
+    background-color: rgb(218, 218, 218);
+    margin: 40px 0 0 0;
+    box-shadow: 0 0 5px 13px rgb(218, 218, 218);
+    min-height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 10px;
+	width: 100%;
+}
