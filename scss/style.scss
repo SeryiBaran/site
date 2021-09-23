@@ -3,6 +3,10 @@
 * {
     font-family: "Lucida Sans Unicode";
 }
+p {
+	font-size: 18px;
+	margin-top: 13px;
+}
 html, body {
 	width:100%;
 	overflow-x:hidden;
@@ -61,6 +65,9 @@ html, body {
 .gorizontal_nav a:hover {
 	color: #d96f00;
 }
+.gorizontal_nav div {
+	margin: 7px 10px;
+}
 .visitka {
     background-color: rgb(218, 218, 218);
     border-radius: 7px;
@@ -70,6 +77,7 @@ html, body {
     -o-border-radius: 7px;
     box-shadow: 0 0 5px 13px rgb(218, 218, 218);
 	flex: 1 1 auto;
+	padding: 25px;
 }
 .content_visitka {
     display: flex;
@@ -80,37 +88,37 @@ html, body {
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+	align-items: center;
 }
 ._1polovina_contenta__txt {
     text-align: center;
     display: flex;
     flex-direction: column;
 	max-width: 450px;
+	justify-content: space-evenly;
 }
 .hello {
-    font-size: 55px;
+    font-size: 45px;
     flex-grow: 1;
-    margin-top: 50px;
+	margin-bottom: 33px;
 }
 .hto_ya___prezident_ukraini {
-    font-size: 26px;
+    font-size: 18px;
     flex-grow: 1;
+	margin-bottom: 33px;
 }
 .moy_simvol {
-    height: 275px;
-    margin: 25px 0;
+    max-width: 100%;
+	max-height: 250px;
+	margin: 0 15px;
 }
 ._2polovina_contenta {
     font-size: 20px;
-    padding: 25px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     flex: 1;
     justify-content: space-between;
-}
-.what___is___SPAAARRRTAAA {
-    font-size: 26px;
 }
 .socsety {
     background-color: rgb(218, 218, 218);
@@ -121,7 +129,7 @@ html, body {
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
     box-shadow: 0 0 5px 13px rgb(218, 218, 218);
-    padding: 20px;
+    padding: 25px;
 }
 .txt_knopky {
     text-align: center;
