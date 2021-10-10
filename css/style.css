@@ -97,6 +97,7 @@ h6 {
   src: local("☺"), url("../fonts/Lucida Sans Unicode.woff") format("woff"), url("../fonts/Lucida Sans Unicode.ttf") format("truetype"), url("../fonts/Lucida Sans Unicode.svg") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 * {
   font-family: "Lucida Sans Unicode";
@@ -114,7 +115,7 @@ html, body {
 
 .tipa-body {
   min-height: 100%;
-  background-image: url(../img/back.jpg);
+  background-image: url(../img/back.webp);
   background-size: 250px;
   display: flex;
   justify-content: center;
@@ -268,7 +269,7 @@ html, body {
 }
 
 .knopka1 {
-  background-image: url(../img/1.png);
+  background-image: url(../img/youtube.webp);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -277,7 +278,7 @@ html, body {
 }
 
 .knopka2 {
-  background-image: url(../img/2.png);
+  background-image: url(../img/vk.webp);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -286,7 +287,7 @@ html, body {
 }
 
 .knopkasoob {
-  background-image: url(../img/vksoob.png);
+  background-image: url(../img/vksoob.webp);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -295,11 +296,11 @@ html, body {
 }
 
 .knopka3 {
-  background-image: url(../img/3.png);
+  background-image: url(../img/discord.webp);
 }
 
 .knopka4 {
-  background-image: url(../img/4.png);
+  background-image: url(../img/telegram.webp);
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -308,11 +309,11 @@ html, body {
 }
 
 .knopka5 {
-  background-image: url(../img/5.png);
+  background-image: url(../img/donationalerts.webp);
 }
 
 .knopka6 {
-  background-image: url(../img/6.png);
+  background-image: url(../img/github.webp);
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -321,11 +322,11 @@ html, body {
 }
 
 .knopka7 {
-  background-image: url(../img/gitlab.png);
+  background-image: url(../img/gitlab.webp);
 }
 
 .knopka8 {
-  background-image: url(../img/yandexq.png);
+  background-image: url(../img/yandexq.webp);
 }
 
 footer {
