@@ -116,7 +116,6 @@ html, body {
   min-height: 100%;
   background-image: url(../img/back.jpg);
   background-size: 250px;
-  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,6 +322,10 @@ html, body {
 
 .knopka7 {
   background-image: url(../img/gitlab.png);
+}
+
+.knopka8 {
+  background-image: url(../img/yandexq.png);
 }
 
 footer {
