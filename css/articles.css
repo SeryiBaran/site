@@ -173,7 +173,7 @@ html, body {
   margin: 7px 10px;
 }
 
-.gorizontal_nav .ssyl_glavnaya {
+.gorizontal_nav .ssyl_articles {
   pointer-events: none;
   color: #d96f00;
 }
@@ -343,4 +343,4 @@ footer {
   width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=articles.css.map */
