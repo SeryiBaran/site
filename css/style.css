@@ -126,7 +126,7 @@ html, body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 25px 40px 0 40px;
   max-width: 970px;
   flex: 1 1 auto;
 }
