@@ -87,21 +87,31 @@ body {
     flex-direction: column;
     min-height: 100%;
     flex: 1 1 auto;
-
 }
 .txt_hello {
     font-size: 30px;
     text-align: center;
 }
 .txt_hello_div {
-
 }
-.articles_list_div{
+.articles_list_div {
     flex: 1 1 auto;
     margin-top: 30px;
 }
-.articles_list li{
+.articles_list li {
     margin: 30px 0;
+}
+.articles_list li a {
+    padding-left: 27px;
+    background: url(../img/pensil.webp);
+    background-position: 3px center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: #040029;
+}
+.articles_list li a:hover {
+    color: #d96f00;
 }
 footer {
     background-color: rgb(218, 218, 218);
