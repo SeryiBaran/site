@@ -108,7 +108,8 @@ p {
   margin-top: 13px;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -153,7 +154,7 @@ html, body {
   border-radius: 7px;
   display: flex;
   border: 1px dashed #000;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   text-decoration: none;
   display: flex;
   height: 35px;
@@ -178,7 +179,7 @@ html, body {
   color: #d96f00;
 }
 
-.visitka {
+.main_unit {
   background-color: #dadada;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -188,11 +189,28 @@ html, body {
   box-shadow: 0 0 3px 10px #dadada;
   flex: 1 1 auto;
   padding: 25px;
+  display: flex;
 }
 
-.content_visitka {
+.content_main_unit {
   display: flex;
   flex-direction: column;
+  min-height: 100%;
+  flex: 1 1 auto;
+}
+
+.txt_hello {
+  font-size: 30px;
+  text-align: center;
+}
+
+.articles_list_div {
+  flex: 1 1 auto;
+  margin-top: 30px;
+}
+
+.articles_list li {
+  margin: 30px 0;
 }
 
 footer {

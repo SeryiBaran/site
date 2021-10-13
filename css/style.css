@@ -108,7 +108,8 @@ p {
   margin-top: 13px;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -153,7 +154,7 @@ html, body {
   border-radius: 7px;
   display: flex;
   border: 1px dashed #000;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   text-decoration: none;
   display: flex;
   height: 35px;
@@ -215,6 +216,7 @@ html, body {
   font-size: 45px;
   flex-grow: 1;
   margin-bottom: 33px;
+  margin-top: 13px;
 }
 
 .hto_ya___prezident_ukraini {
