@@ -136,12 +136,12 @@ html, body {
   background-color: #dadada;
   min-height: 80px;
   margin-bottom: 40px;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  box-shadow: 0 0 5px 13px #dadada;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 3px 10px #dadada;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -178,12 +178,12 @@ html, body {
 
 .visitka {
   background-color: #dadada;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  box-shadow: 0 0 5px 13px #dadada;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 3px 10px #dadada;
   flex: 1 1 auto;
   padding: 25px;
 }
@@ -239,12 +239,12 @@ html, body {
 .socsety {
   background-color: #dadada;
   margin: 40px 0 0 0;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  box-shadow: 0 0 5px 13px #dadada;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 0 3px 10px #dadada;
   padding: 25px;
 }
 
