@@ -2,8 +2,9 @@
 Сайт-визитка Музыка Ивана
 | Версия/Version | Поддерживается/Supported | Доступна/Available                                              |
 | -------------- | ------------------------ | --------------------------------------------------------------- |
+| 3.6.4          | :white_check_mark:       | :white_check_mark:                                              |
 | 3.6.3          | :x:                      | :white_check_mark:                                              |
-| 3.6.2          | :white_check_mark:       | :white_check_mark:                                              |
+| 3.6.2          | :x:                      | :white_check_mark:                                              |
 | 3.6.1          | :x:                      | :white_check_mark:                                              |
 | 3.6            | :x:                      | :white_check_mark:                                              |
 | 3.5.1          | :x:                      | :white_check_mark:                                              |
