@@ -63,11 +63,11 @@ body {
 .horizontal_nav div {
     margin: 7px 10px;
 }
-.horizontal_nav .ssyl_glavnaya {
+.horizontal_nav .link_main {
     pointer-events: none;
     color: #d96f00;
 }
-.visitka {
+.card {
     background-color: rgb(218, 218, 218);
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -78,7 +78,7 @@ body {
     flex: 1 1 auto;
     padding: 25px;
 }
-.content_visitka {
+.content_card {
     display: flex;
     flex-direction: column;
 }
