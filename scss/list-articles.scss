@@ -9,7 +9,7 @@ html,
 body {
     width: 100%;
 }
-.tipa-body {
+.pseudo_body {
     min-height: 100%;
     background-image: url(../img/back.webp);
     background-size: 250px;
@@ -26,7 +26,7 @@ body {
     flex: 1 1 auto;
     width: 100%;
 }
-.gorizontal_nav {
+.horizontal_nav {
     list-style-type: none;
     background-color: rgb(218, 218, 218);
     min-height: 80px;
@@ -42,7 +42,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-.gorizontal_nav a {
+.horizontal_nav a {
     border-radius: 7px;
     display: flex;
     border: 1px dashed #000;
@@ -57,13 +57,13 @@ body {
     font-size: 19px;
     color: #040029;
 }
-.gorizontal_nav a:hover {
+.horizontal_nav a:hover {
     color: #d96f00;
 }
-.gorizontal_nav div {
+.horizontal_nav div {
     margin: 7px 10px;
 }
-.gorizontal_nav .ssyl_articles {
+.horizontal_nav .ssyl_articles {
     pointer-events: none;
     color: #d96f00;
 }
