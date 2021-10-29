@@ -47,7 +47,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .horizontal_nav a {
   border-radius: 7px;
   display: flex;
@@ -63,15 +62,12 @@ body {
   font-size: 19px;
   color: #040029;
 }
-
 .horizontal_nav a:hover {
   color: #d96f00;
 }
-
 .horizontal_nav div {
   margin: 7px 10px;
 }
-
 .horizontal_nav .link_articles {
   pointer-events: none;
   color: #d96f00;
