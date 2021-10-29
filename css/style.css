@@ -150,18 +150,18 @@ body {
   padding: 25px;
 }
 
-.txt_knopky {
+.txt_buttons {
   text-align: center;
   margin-bottom: 15px;
 }
 
-.knopki_div {
+.buttons_div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.knopka {
+.button {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -186,39 +186,39 @@ body {
   -o-border-radius: 100%;
 }
 
-.knopka1 {
+.button1 {
   background-image: url(../img/youtube.webp);
 }
 
-.knopka2 {
+.button2 {
   background-image: url(../img/vk.webp);
 }
 
-.knopkasoob {
+.buttonsoob {
   background-image: url(../img/vksoob.webp);
 }
 
-.knopka3 {
+.button3 {
   background-image: url(../img/discord.webp);
 }
 
-.knopka4 {
+.button4 {
   background-image: url(../img/telegram.webp);
 }
 
-.knopka5 {
+.button5 {
   background-image: url(../img/donationalerts.webp);
 }
 
-.knopka6 {
+.button6 {
   background-image: url(../img/github.webp);
 }
 
-.knopka7 {
+.button7 {
   background-image: url(../img/gitlab.webp);
 }
 
-.knopka8 {
+.button8 {
   background-image: url(../img/yandexq.webp);
 }
 
